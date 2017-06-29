@@ -29,15 +29,15 @@
                               (map
                                 #(let [[lang year] %]
                                    (str "{rank = same;" year ";" \" lang \" ";}"))
-                                langlist)))
+                                langlist))
   )
 
 (defn lang-connections
   [[language year & rest]]
   ;;(for [lang rest]
   (map
-    #(str language "->" % ";\n") rest))
-  ;;(map #(str language "->" % ";\n") rest))
+    ;;(str language "->" % ";\n") rest))
+    str rest))
 
 (defn connections
   [langlist]

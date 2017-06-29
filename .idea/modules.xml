@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:///opt/home/poutima/src/proglanguages/proglanguages.iml" filepath="/opt/home/poutima/src/proglanguages/proglanguages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proglanguages.iml" filepath="$PROJECT_DIR$/proglanguages.iml" />
     </modules>
   </component>
 </project>
