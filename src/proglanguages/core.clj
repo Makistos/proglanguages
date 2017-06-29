@@ -26,23 +26,22 @@
   [langlist]
   (clojure.string/join "\n" (list
                               "node [shape=box];"
-                              (map
+                              (apply str (map
                                 #(let [[lang year] %]
                                    (str "{rank = same;" year ";" \" lang \" ";}"))
-                                langlist)))
+                                langlist))))
   )
 
 (defn lang-connections
   [[language year & rest]]
   ;;(for [lang rest]
-  (map
-    ;;(str language "->" % ";\n") rest))
-    str rest))
+  (apply str (map
+    #(str language "->" % ";\n") rest)))
 
 (defn connections
   [langlist]
-  ;;(clojure.string/join "\n"
-                       (for [lang langlist] (lang-connections lang))
+  (apply str
+                       (for [lang langlist] (lang-connections lang)))
   )
 
 (defn dot-file
