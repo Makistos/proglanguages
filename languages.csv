@@ -1,2 +1,153 @@
-C#,2000,C++,Java,F#,Haskell,Rust
-Clojure,2007,C++,C#,Common Lisp,Erlang,Haskell
+Plankalkül,1948
+Speedcoding,1953
+FLOW-MATIC,1955
+FORTRAN,1957,Speedcoding
+COMTRAN,1957,FLOW-MATIC
+Lisp,1958
+ALGOL,1958,Plankalkül
+FACT,1959
+AIMACO,1959,FLOW-MATIC,COMTRAN
+COBOL,1959,AIMACO,C++,COMTRAN,Eiffel,FACT,FLOW-MATIC,Smalltalk
+ALGOL 60,1960,ALGOL
+SNOBOL,1962
+CPL,1963,ALGOL 60
+BASIC,1964,ALGOL 60,FORTRAN,JOSS
+APL,1964
+PL/I,1964,COBOL,Fortran,ALGOL
+Simula,1965,ALGOL
+Algol W,1966,ALGOL
+JOSS,1966,ALGOL
+ISWIM,1966,ALGOL,Lisp
+BCPL,1966,CPL
+MUMPS,1966,JOSS
+Logo,1967
+ALGOL 68,1968,ALGOL 60
+Planner,1969,Lisp
+B,1969,BCPL,PL/I
+Scheme,1970,Lisp,ALGOL
+Pascal,1970,Algol W
+Forth,1970,Lisp,APL
+C,1972,ALGOL 68,FORTRAN,B,BCPL
+Prolog,1972,Planner
+Smalltalk,1972,Lisp,Simula,Planner,Logo
+SASL,1972,ISWIM
+RTL/2,1972,ALGOL 68
+COMAL,1973,BASIC,Pascal
+ML,1973,ISWIM
+CLU,1975,ALGOL 60,Lisp,Simula
+Modula,1975,Pascal
+Mesa,1976,ALGOL
+S,1976,C,APL,FORTRAN
+Icon,1977,SNOBOL,ALGOL
+FP,1977,APL
+Bourne shell,1977
+AWK,1977,C,SNOBOL,Bourne shell
+Modula-2,1978,Modula,Mesa,Pascal,Algol W
+Ada,1980,ALGOL,Pascal
+KRC,1981,SASL
+LeLisp,1981,Lisp
+C++,1983,Ada,ALGOL 68,C,ML,Simula
+Common Lisp,1983,Lisp,Scheme
+SISAL,1983,Pascal,C,Fortran
+occam,1983
+Modula-2+,1984,Pascal,ALGOL,Modula-2
+Orwell,1984,Miranda
+Objective-C,1984,C,Smalltalk
+T,1984,Scheme
+MATLAB,1984,APL
+Newsqueak,1985,C
+Miranda,1985,ML
+Caml,1985,ML
+Emacs LISP,1985,Common Lisp
+Erlang,1986,Prolog,Smalltalk,Lisp
+Eiffel,1986,Ada,Simula
+Object Pascal,1986,Pascal,Simula,Smalltalk
+Oberon,1986,Modula-2
+Standard ML,1986,ML
+Oaklisp,1986,Scheme,T,Smalltalk
+Clean,1987,Miranda,Haskell
+Perl,1987,C,C++,Lisp,Pascal,Smalltalk
+Self,1987,Smalltalk
+HyperTalk,1987,Pascal
+Modula-3,1988,Modula-2+,Modula-2,Pascal,ALGOL,Oberon
+Mathematica,1988
+Tcl,1988,AWK,Lisp
+Coq,1989,ML
+Haskell,1990,Clean,FP,ISWIM,KRC,Lisp,Miranda,ML,Standard ML,Orwell,SASL,Scheme,SISAL
+Sather,1990,Eiffel,CLU,Common Lisp,Scheme
+J,1990,APL,FP
+Python,1991,ALGOL,C,C++,Haskell,Java,Lisp,Modula-3,Perl,Icon
+VB,1991,BASIC
+Oz,1991,Erlang,Lisp,Prolog
+Dylan,1992,CLOS,ALGOL,Scheme,EuLisp
+Alef,1992,C,Newsqueak
+Lua,1993,C++,Modula,Scheme
+R,1993,Common Lisp,S,Scheme
+ZPL,1993,C
+Pike,1994,C,C++
+Racket,1994,Scheme,Eiffel
+Java,1995,Ada,C++,C#,Eiffel,Modula-3,Objective-C
+JavaScript,1995,Lua,Scheme,Perl,Self,Java,C,Python,AWK,HyperTalk
+Ruby,1995,Ada,C++,Eiffel,Lisp,Lua,Perl,Python,Smalltalk
+Limbo,1995,C,Pascal,Alef,Newsqueak
+PHP,1995,C,C++,Java,Perl,Tcl
+Ada 95,1995,C++,Smalltalk,Java,Eiffel
+Mercury,1995,Prolog,Haskell
+Lasso,1995,Dylan,Smalltalk,Scala
+Cool,1996,Sather,Java,ML,Pascal
+OCaml,1996,Caml,Cool,Standard ML
+Charm,1996,RTL/2,C,Pascal
+ECMAScript,1997,Self,HyperTalk,AWK,C,Perl,Python,Java,Scheme
+C--,1997,C
+Rebol,1997,Self,Forth,Lisp,Logo
+ActionScript,1998,JavaScript,Java
+BeanShell,1999,Java,JavaScript,Perl
+Gambas,1999,VB,Java
+C#,2000,C++,Eiffel,Java,Modula-3,Object Pascal,ML,VB,Haskell,Rust,F#
+D,2001,C,C++,C#,Eiffel,Java,Python
+Joy,2001,Scheme,FP
+J#,2002,Java
+Polyphonic C#,2002,C#
+Gosu,2002,Java,C#
+Scratch,2002,Logo,Smalltalk
+Cw,2003,C#,Polyphonic C#
+Boo,2003,C#,Python
+Groovy,2003,Java,Python,Ruby,Perl,Smalltalk,Objective-C
+Nemerle,2003,C#,ML,Lisp
+Factor,2003,Joy,Forth,Lisp,Self
+Scala,2004,Eiffel,Erlang,Haskell,Java,Lisp,Standard ML,OCaml,Scheme,Smalltalk,Oz
+Epigram,2004
+Seed7,2005,Pascal,Modula-2,Ada,ALGOL 68,C,C++,Java
+F#,2005,C#,Erlang,Haskell,ML,OCaml,Python,Scala
+Fantom,2005,C#,Java,Scala,Ruby,Erlang
+Haxe,2005,ActionScript,OCaml,Java
+Vala,2006,C,C++,C#,D,Java,Boo
+Cyclone,2006,C
+Hop,2006,Scheme
+Cobra,2006,Python,Eiffel,C#,Objective-C
+PowerShell,2006,Perl,C#,Tcl
+Clojure,2007,C++,C#,Common Lisp,Erlang,Haskell,Mathematica,ML,Prolog,Scheme,Java,Racket,Ruby
+Agda,2007,Coq,Epigram,Haskell
+Nu,2007,Lisp,Objective-C,Ruby
+LFE,2008,Erlang,Common Lisp,Scheme,Elixir,Clojure
+Nim,2008,Ada,Modula-3,Lisp,C++,Object Pascal,Python,Oberon
+Reia,2008,Erlang,Ruby,Python
+Genie,2008,Python,Boo,D,Object Pascal
+Go,2009,Alef,APL,BCPL,C,CSP,Limbo,Modula,Newsqueak,Oberon,occam,Pascal,Python,Smalltalk
+CoffeeScript,2009,Haskell,JavaScript,Perl,Python,Ruby
+Chapel,2009,Ada,C,Fortran,C++,Java,C#
+Rust,2010,Alef,C#,C++,Cyclone,Erlang,Haskell,Limbo,Newsqueak,OCaml,Ruby,Scheme,Standard ML,Swift
+EuLisp,2010,Common Lisp,LeLisp,Scheme,T,Oaklisp,Standard ML,Haskell
+Elixir,2011,Erlang,LFE,Ruby,Clojure
+Frege,2011,Haskell
+Dart,2011,JavaScript,Smalltalk,Erlang,C#
+Kotlin,2011,Java,Scala,Groovy,C#,Gosu,JavaScript,Swift
+Opa,2011,OCaml,Erlang,JavaScript
+Red,2011,Rebol,Scala,Lua
+Elm,2012,Haskell,Standard ML,OCaml,F#
+Julia,2012,C,Fortran,Lisp,Lua,Mathematica,MATLAB,Perl,Python,R,Ruby,Scheme
+Swift,2014,C#,CLU,Haskell,Objective-C,Python,Ruby,Rust
+Hack,2014,PHP,OCaml,Java,C#,Scala,Haskell
+Pixie,2015,Clojure,Lisp
+Idris,2017,Agda,Coq,Epigram,Haskell,ML,Rust
+SPARK,2017,Ada,Eiffel

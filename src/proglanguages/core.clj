@@ -7,7 +7,7 @@
 
 (def header
   "digraph g {
-  ranksep=.75; size =\"7.5,7.5,7.5\";
+  ranksep=.75;
   {
     node [shape=plaintext, fontsize=16];\n
   "
@@ -19,7 +19,7 @@
 
 (defn years
   [langlist]
-  (str (clojure.string/join " -> "(map second langlist)) ";}")
+  (str (clojure.string/join " -> "(apply sorted-set (map second langlist))) ";}")
   )
 
 (defn ranks
@@ -36,12 +36,13 @@
   [[language year & rest]]
   ;;(for [lang rest]
   (apply str (map
-    #(str language "->" % ";\n") rest)))
+    #(str \" % \" "->" \" language "\";\n") rest)))
 
 (defn connections
   [langlist]
   (apply str
-                       (for [lang langlist] (lang-connections lang)))
+                       (for
+                         [lang langlist] (lang-connections lang)))
   )
 
 (defn dot-file
@@ -61,6 +62,5 @@
     (csv/parse-csv (slurp file))))
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
-  (println (dot-file (take-csv "/tmp/languages.csv"))))
+  (println (dot-file (take-csv "languages.csv"))))
